@@ -8,6 +8,7 @@ The repository consists of the following files:
 
 - `knn.py`: Contains the implementation of the `KNNClassifier` class, which utilizes the Faiss library for efficient k-nearest neighbors classification.
 - `decision_trees.py`: Includes functions for training decision tree classifiers and analyzing their performance.
+- `data.csv`, `train.csv`, `validation.csv`, `test.csv`, `AD_test.csv`: These CSV files contain data used for training and testing the machine learning models. Each row represents a sample, with features such as longitude, latitude, and country statistics.
 
 ## Files Description
 
@@ -28,6 +29,12 @@ The `decision_trees.py` file provides functions for training decision tree class
 - **Train Decision Trees**: This function trains decision trees with different hyperparameters and evaluates their performance on test and validation sets.
 - **KNN Analysis**: Lastly, there is a function `KNN` for analyzing the performance of the KNN classifier on different distance metrics and values of k.
 
+## Data Files Description
+
+### data.csv, train.csv, validation.csv, test.csv, AD_test.csv
+
+These CSV files contain data used for training and testing the machine learning models. Each row represents a sample, with features such as longitude, latitude, and country statistics.
+
 ## Usage
 
 To utilize the functionalities provided in these files, follow the steps below:
@@ -43,7 +50,3 @@ To utilize the functionalities provided in these files, follow the steps below:
 - Matplotlib
 - scikit-learn
 - Faiss
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
